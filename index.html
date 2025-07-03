@@ -1,0 +1,54 @@
+{
+  "name": "AstrologyProfile",
+  "type": "object",
+  "properties": {
+    "full_name": {
+      "type": "string",
+      "description": "User's full name"
+    },
+    "birth_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of birth"
+    },
+    "birth_time": {
+      "type": "string",
+      "description": "Time of birth"
+    },
+    "birth_location": {
+      "type": "string",
+      "description": "Place of birth"
+    },
+    "sun_sign": {
+      "type": "string",
+      "description": "Sun sign from birth chart"
+    },
+    "moon_sign": {
+      "type": "string",
+      "description": "Moon sign from birth chart"
+    },
+    "rising_sign": {
+      "type": "string",
+      "description": "Rising/Ascendant sign from birth chart"
+    },
+    "mercury_sign": {
+      "type": "string",
+      "description": "Mercury sign from birth chart"
+    },
+    "venus_sign": {
+      "type": "string",
+      "description": "Venus sign from birth chart"
+    },
+    "mars_sign": {
+      "type": "string",
+      "description": "Mars sign from birth chart"
+    }
+  },
+  "required": [
+    "full_name",
+    "birth_date",
+    "sun_sign",
+    "moon_sign",
+    "rising_sign"
+  ]
+}
